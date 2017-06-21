@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="ESCOLHA SUA CATEGORIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/categorias"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="normal|bold|italic" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategoria" />
+
+    <TextView
+        android:text="ESCOLHA SUA SUBCATEGORIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subcategoria"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSub" />
+
+    <Button
+        android:text="CONTINUAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/continuarCategoria" />
+</LinearLayout>
